@@ -1,0 +1,186 @@
+.instructions_main{   
+    height:180vh;
+    width:100%;
+}
+
+.instructions_heading{
+    background-color: rgba(43, 43, 213, 0.211);
+    padding:30px 100px;
+}
+
+.instructions_container{
+    display:flex;
+    height:80%;
+    padding:10px 100px;
+}
+
+.instructions_left{
+    width:70%;
+    /* background-color: blue; */
+}
+
+.instructions_left h2{
+    text-align: left;
+    font-size: 33px;
+    color:rgb(23, 23, 23);
+}
+
+.div1{
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+}
+
+.div2{
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.div3{
+    margin-top: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;;
+}
+
+.div4{
+    margin-top: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+table {
+    margin-top: 15px;
+    width: 90%;
+    border-collapse: collapse;
+    border-spacing: 40px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+th {
+    background-color: blue;
+    color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.div5{
+    margin-top: 55px;
+    font-size:20px;
+}
+.div6{
+    margin-top: 25px;
+    font-size:20px;
+}
+.div7{
+    margin-top: 25px;
+    font-size:20px;
+}
+.div8{
+    margin-top: 25px;
+    font-size:20px;
+}
+.div9{
+    margin-top: 25px;
+    font-size:20px;
+}
+.div10{
+    margin-top: 25px;
+    font-size:20px;
+}
+.div11{
+    margin-top: 25px;
+    font-size:20px;
+}
+.div12{
+    margin-top: 25px;
+    font-size:20px;
+}
+
+
+.instructions_right{
+    width:30%;
+    /* background-color: rgb(137, 137, 137); */
+}
+
+.div13{
+    background-color: rgb(190, 189, 189);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    padding: 20px 0px;
+}
+
+.profile_photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(103, 103, 103);
+}
+
+.profile{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_content1{
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.profile_content2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.instructions_footer{
+    position:fixed;
+    bottom:0;
+    background-color: rgb(214, 213, 213);
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:15px;
+}
+
+button{
+    padding:10px 40px;
+    border-radius: 5px;
+    margin:0 10px;
+    border:none;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+.instructions_button1{
+    background-color: rgb(143, 141, 141);
+    color:black;
+}
+
+.instructions_button2{
+    background-color: rgb(20, 20, 202);
+    color:rgb(255, 255, 255);
+}
+
+.instructions_navlink1{
+    text-decoration: none;
+    color:black;
+}
+
+.instructions_navlink2{
+    text-decoration: none;
+    color:white;
+}

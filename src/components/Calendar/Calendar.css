@@ -1,0 +1,112 @@
+.calendar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:25px 100px;
+    /* background-color: #ed8282; */
+  }
+  
+  .calendar-header {
+    width: 100%;
+    height: 50px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .calendar_title {
+    /* background-color: #cc0000; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 600;
+    color:#212121;
+  }
+  
+  .tools {
+    /* background-color: #cc0000; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tools button{
+    padding:1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #1e0dda; */
+    border: none;
+  }
+  
+
+
+  
+  .calendar-body {
+    /* background-color: rgb(16, 159, 35); */
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .table-header {
+    /* background-color: rgb(55, 87, 6); */
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .weekday {
+    width: 120px;
+    text-align: center;
+  }
+  
+  .table-content {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  
+  .calendar-day {
+    width: 140px;
+    height: 65px;
+    position: relative;
+    border: 1px solid #a6a6a6;
+  }
+  
+  .calendar-day:hover {
+    background-color: rgba(0,0,0,.10);
+  }
+  
+  .calendar-day p {
+    position: absolute;
+    right: 10px;
+    color: #a6a6a6;
+  }
+  
+  .current p {
+    color: #000000;
+    font-size: 17px;
+  }
+  
+  .selected p {
+    color: #cc0000;
+    font-weight: 800;
+    font-size: 30px;
+  }
+
+  .material-icons{
+    /* background-color: #ed8282; */
+    background-color: transparent;
+  }

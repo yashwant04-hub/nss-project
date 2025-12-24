@@ -1,0 +1,40 @@
+.navbar{
+    /* background-color: rgb(146, 95, 226); */
+    background-image: linear-gradient(to right,rgb(146, 95, 226) 40%,rgb(180, 149, 225));
+    border-radius: 15px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px; 
+    font-size: 20px;
+    box-shadow: 5px 10px 7px #aaa8a8;
+}
+
+.navbar_navlink{
+    text-decoration: none;
+    color:white;
+}
+
+
+.navbar_right button{
+    border: none;
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0px;
+    border-radius:10px;
+}
+
+.navbar_svg_container{
+    height:30px;
+    width:30px;
+}
+
+.navbar_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

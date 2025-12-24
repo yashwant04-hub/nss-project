@@ -1,0 +1,67 @@
+.progress_report_main{
+    height:12vw;
+    width:30vw;
+    border-radius: 15px;
+    box-shadow: 5px 10px 7px #aaa8a8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+
+    border:3px solid rgb(146, 95, 226);
+    background-color: rgb(226, 212, 247);
+}
+
+.progress_report_left{
+    display:flex;
+    width:50%;
+    height:100%;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(87, 87, 252); */
+}
+
+.progress_report_left_top{
+    width:100%;
+    height:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(79, 38, 147);
+    font-weight:500;
+    font-size: 20px;
+    /* background-color: rgb(20, 143, 102); */
+}
+
+.progress_report_left_bottom{
+    width:100%;
+    height:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress_report_button{
+    background-color: rgb(146, 95, 226);
+    color:white;
+    font-weight: 500;
+    border-radius:50px;
+    transition: background-color 0.3s ease;
+
+}
+
+.progress_report_button:hover{
+    background-color: rgb(79, 38, 147);
+}
+
+.progress_report_right{
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barchart_logo{
+    height: 150px;;
+    width:150px;
+}

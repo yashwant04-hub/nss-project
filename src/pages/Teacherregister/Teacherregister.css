@@ -1,0 +1,40 @@
+.register-container_teacher{
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacher_register_container_left{
+    width:50%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(225, 212, 247);
+    border-radius: 0 10px 10px 0;
+}
+
+.teacher_register_container_right{
+    width:50%;
+    height:100vh;
+}
+
+.teacher_register_top_btn{
+    display:flex;
+  align-items: center;
+  justify-content: start;
+  padding:30px 20px;
+  /* background-color: brown; */
+}
+
+.teacher_form_container{
+    height:80%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .register-form{
+    box-shadow: 5px 10px 7px #aaa8a8;
+  }

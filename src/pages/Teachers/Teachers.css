@@ -1,0 +1,23 @@
+.teacher_main{
+    padding:25px;
+}
+
+.teacher_main_down{
+    display:flex;
+    
+}
+
+.teacher_main_right{
+    /* background-color: rgb(76, 239, 185); */
+    width:100%;
+    border-radius: 10px;
+    margin:25px;
+    padding:10px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+a.active{
+    color:rgb(255, 255, 255);
+}
